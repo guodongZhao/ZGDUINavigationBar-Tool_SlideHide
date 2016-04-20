@@ -24,8 +24,7 @@
 ```
 
 #### 2.还原操作 
-
-  ##### Remarks : 当前视图离开时，使用还原操作取消UINavigationBar的属性操作
+##### Remarks : 当前视图离开时，使用还原操作取消UINavigationBar的属性操作
   ------------
 ```objc
 /**
