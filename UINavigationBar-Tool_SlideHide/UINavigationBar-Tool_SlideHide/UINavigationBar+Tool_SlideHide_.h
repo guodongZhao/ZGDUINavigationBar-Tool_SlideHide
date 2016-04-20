@@ -11,12 +11,15 @@
 @interface UINavigationBar (Tool_SlideHide_)
 
 /**
- *  设置UINavigationBar的透明度
+ *  @see               设置UINavigationBar
+ *
+ *  @param alpha       UINavigationBar的透明度
+ *  @param customColor 自定义UINavigationBar颜色
  */
-- (void)zgd_setBackgroundColorAlpha:(CGFloat)alpha;
+- (void)zgd_setBackgroundColorAlpha:(CGFloat)alpha withCustomViewColor:(UIColor *)customColor;
 
 /**
- *  使用结束，还原
+ *  @see               还原操作
  */
 - (void)zgd_dealloc;
 

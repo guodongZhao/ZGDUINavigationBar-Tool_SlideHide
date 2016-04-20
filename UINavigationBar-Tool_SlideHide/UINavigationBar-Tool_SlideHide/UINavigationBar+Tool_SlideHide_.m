@@ -40,7 +40,7 @@ static char backViewKey;
 /**
  *  设置UINavigationBar的透明度
  */
-- (void)zgd_setBackgroundColorAlpha:(CGFloat)alpha
+- (void)zgd_setBackgroundColorAlpha:(CGFloat)alpha withCustomViewColor:(UIColor *)customColor
 {
     if (!self.backView) {
         // 1.把背景设置为透明
@@ -62,7 +62,7 @@ static char backViewKey;
         
     }
     // 5.设置颜色的透明度
-    self.backView.backgroundColor = [self.barTintColor colorWithAlphaComponent:alpha];
+    self.backView.backgroundColor = [customColor colorWithAlphaComponent:alpha];
     
     // 6.设置titleView的透明度
     [self setValue:@(alpha) forKeyPath:@"titleView.alpha"];

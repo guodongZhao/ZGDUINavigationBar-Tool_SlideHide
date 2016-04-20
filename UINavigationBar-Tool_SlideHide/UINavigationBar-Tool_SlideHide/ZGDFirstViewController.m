@@ -72,11 +72,11 @@ static CGFloat NAVBAR_CHANGE_POINT = 60;
         // 2.计算透明度
         CGFloat alpha = 1 - (NAVBAR_CHANGE_POINT + 64 - contentY) / 64.0;
         // 3.设置navbar的透明度
-        [self.navigationController.navigationBar zgd_setBackgroundColorAlpha:alpha];
+        [self.navigationController.navigationBar zgd_setBackgroundColorAlpha:alpha withCustomViewColor:[UIColor blueColor]];
     }else
     {
         // 4.隐藏navBar
-        [self.navigationController.navigationBar zgd_setBackgroundColorAlpha:0];
+        [self.navigationController.navigationBar zgd_setBackgroundColorAlpha:0 withCustomViewColor:[UIColor blueColor]];
     }
     
 }
