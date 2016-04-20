@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3A508F1CC74DDE0004B574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A508E1CC74DDE0004B574 /* main.m */; };
+		9A3A50921CC74DDE0004B574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50911CC74DDE0004B574 /* AppDelegate.m */; };
+		9A3A50981CC74DDE0004B574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A50961CC74DDE0004B574 /* Main.storyboard */; };
+		9A3A509A1CC74DDE0004B574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A50991CC74DDE0004B574 /* Assets.xcassets */; };
+		9A3A509D1CC74DDE0004B574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A509B1CC74DDE0004B574 /* LaunchScreen.storyboard */; };
+		9A3A50A81CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50A71CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideTests.m */; };
+		9A3A50B31CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50B21CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideUITests.m */; };
+		9A3A50C61CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50C11CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.m */; };
+		9A3A50C71CC74E980004B574 /* ZGDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50C31CC74E980004B574 /* ZGDFirstViewController.m */; };
+		9A3A50C81CC74E980004B574 /* ZGDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A50C51CC74E980004B574 /* ZGDNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A3A50A41CC74DDE0004B574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3A50821CC74DDE0004B574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3A50891CC74DDE0004B574;
+			remoteInfo = "UINavigationBar-Tool_SlideHide";
+		};
+		9A3A50AF1CC74DDE0004B574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3A50821CC74DDE0004B574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3A50891CC74DDE0004B574;
+			remoteInfo = "UINavigationBar-Tool_SlideHide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A3A508A1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINavigationBar-Tool_SlideHide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A508E1CC74DDE0004B574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A3A50901CC74DDE0004B574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A3A50911CC74DDE0004B574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A3A50971CC74DDE0004B574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3A50991CC74DDE0004B574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3A509C1CC74DDE0004B574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A3A509E1CC74DDE0004B574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A50A31CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UINavigationBar-Tool_SlideHideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A50A71CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationBar_Tool_SlideHideTests.m; sourceTree = "<group>"; };
+		9A3A50A91CC74DDE0004B574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A50AE1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UINavigationBar-Tool_SlideHideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A50B21CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationBar_Tool_SlideHideUITests.m; sourceTree = "<group>"; };
+		9A3A50B41CC74DDE0004B574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A50C01CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Tool_SlideHide_.h"; sourceTree = "<group>"; };
+		9A3A50C11CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Tool_SlideHide_.m"; sourceTree = "<group>"; };
+		9A3A50C21CC74E980004B574 /* ZGDFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGDFirstViewController.h; sourceTree = "<group>"; };
+		9A3A50C31CC74E980004B574 /* ZGDFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGDFirstViewController.m; sourceTree = "<group>"; };
+		9A3A50C41CC74E980004B574 /* ZGDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGDNavigationController.h; sourceTree = "<group>"; };
+		9A3A50C51CC74E980004B574 /* ZGDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGDNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3A50871CC74DDE0004B574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A50A01CC74DDE0004B574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A50AB1CC74DDE0004B574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3A50811CC74DDE0004B574 = {
+			isa = PBXGroup;
+			children = (
+				9A3A508C1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */,
+				9A3A50A61CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests */,
+				9A3A50B11CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests */,
+				9A3A508B1CC74DDE0004B574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3A508B1CC74DDE0004B574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A508A1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide.app */,
+				9A3A50A31CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests.xctest */,
+				9A3A50AE1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3A508C1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A50C01CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.h */,
+				9A3A50C11CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.m */,
+				9A3A50C21CC74E980004B574 /* ZGDFirstViewController.h */,
+				9A3A50C31CC74E980004B574 /* ZGDFirstViewController.m */,
+				9A3A50C41CC74E980004B574 /* ZGDNavigationController.h */,
+				9A3A50C51CC74E980004B574 /* ZGDNavigationController.m */,
+				9A3A50901CC74DDE0004B574 /* AppDelegate.h */,
+				9A3A50911CC74DDE0004B574 /* AppDelegate.m */,
+				9A3A50961CC74DDE0004B574 /* Main.storyboard */,
+				9A3A50991CC74DDE0004B574 /* Assets.xcassets */,
+				9A3A509B1CC74DDE0004B574 /* LaunchScreen.storyboard */,
+				9A3A509E1CC74DDE0004B574 /* Info.plist */,
+				9A3A508D1CC74DDE0004B574 /* Supporting Files */,
+			);
+			path = "UINavigationBar-Tool_SlideHide";
+			sourceTree = "<group>";
+		};
+		9A3A508D1CC74DDE0004B574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A508E1CC74DDE0004B574 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A3A50A61CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A50A71CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideTests.m */,
+				9A3A50A91CC74DDE0004B574 /* Info.plist */,
+			);
+			path = "UINavigationBar-Tool_SlideHideTests";
+			sourceTree = "<group>";
+		};
+		9A3A50B11CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A50B21CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideUITests.m */,
+				9A3A50B41CC74DDE0004B574 /* Info.plist */,
+			);
+			path = "UINavigationBar-Tool_SlideHideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3A50891CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A50B71CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHide" */;
+			buildPhases = (
+				9A3A50861CC74DDE0004B574 /* Sources */,
+				9A3A50871CC74DDE0004B574 /* Frameworks */,
+				9A3A50881CC74DDE0004B574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UINavigationBar-Tool_SlideHide";
+			productName = "UINavigationBar-Tool_SlideHide";
+			productReference = 9A3A508A1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3A50A21CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A50BA1CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHideTests" */;
+			buildPhases = (
+				9A3A509F1CC74DDE0004B574 /* Sources */,
+				9A3A50A01CC74DDE0004B574 /* Frameworks */,
+				9A3A50A11CC74DDE0004B574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3A50A51CC74DDE0004B574 /* PBXTargetDependency */,
+			);
+			name = "UINavigationBar-Tool_SlideHideTests";
+			productName = "UINavigationBar-Tool_SlideHideTests";
+			productReference = 9A3A50A31CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A3A50AD1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A50BD1CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHideUITests" */;
+			buildPhases = (
+				9A3A50AA1CC74DDE0004B574 /* Sources */,
+				9A3A50AB1CC74DDE0004B574 /* Frameworks */,
+				9A3A50AC1CC74DDE0004B574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3A50B01CC74DDE0004B574 /* PBXTargetDependency */,
+			);
+			name = "UINavigationBar-Tool_SlideHideUITests";
+			productName = "UINavigationBar-Tool_SlideHideUITests";
+			productReference = 9A3A50AE1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3A50821CC74DDE0004B574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵国栋";
+				TargetAttributes = {
+					9A3A50891CC74DDE0004B574 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9A3A50A21CC74DDE0004B574 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9A3A50891CC74DDE0004B574;
+					};
+					9A3A50AD1CC74DDE0004B574 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9A3A50891CC74DDE0004B574;
+					};
+				};
+			};
+			buildConfigurationList = 9A3A50851CC74DDE0004B574 /* Build configuration list for PBXProject "UINavigationBar-Tool_SlideHide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3A50811CC74DDE0004B574;
+			productRefGroup = 9A3A508B1CC74DDE0004B574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3A50891CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */,
+				9A3A50A21CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideTests */,
+				9A3A50AD1CC74DDE0004B574 /* UINavigationBar-Tool_SlideHideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3A50881CC74DDE0004B574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A509D1CC74DDE0004B574 /* LaunchScreen.storyboard in Resources */,
+				9A3A509A1CC74DDE0004B574 /* Assets.xcassets in Resources */,
+				9A3A50981CC74DDE0004B574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A50A11CC74DDE0004B574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A50AC1CC74DDE0004B574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3A50861CC74DDE0004B574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A50921CC74DDE0004B574 /* AppDelegate.m in Sources */,
+				9A3A508F1CC74DDE0004B574 /* main.m in Sources */,
+				9A3A50C61CC74E980004B574 /* UINavigationBar+Tool_SlideHide_.m in Sources */,
+				9A3A50C71CC74E980004B574 /* ZGDFirstViewController.m in Sources */,
+				9A3A50C81CC74E980004B574 /* ZGDNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A509F1CC74DDE0004B574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A50A81CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A50AA1CC74DDE0004B574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A50B31CC74DDE0004B574 /* UINavigationBar_Tool_SlideHideUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A3A50A51CC74DDE0004B574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3A50891CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */;
+			targetProxy = 9A3A50A41CC74DDE0004B574 /* PBXContainerItemProxy */;
+		};
+		9A3A50B01CC74DDE0004B574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3A50891CC74DDE0004B574 /* UINavigationBar-Tool_SlideHide */;
+			targetProxy = 9A3A50AF1CC74DDE0004B574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A3A50961CC74DDE0004B574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A50971CC74DDE0004B574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3A509B1CC74DDE0004B574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A509C1CC74DDE0004B574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3A50B51CC74DDE0004B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3A50B61CC74DDE0004B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3A50B81CC74DDE0004B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3A50B91CC74DDE0004B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3A50BB1CC74DDE0004B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationBar-Tool_SlideHide.app/UINavigationBar-Tool_SlideHide";
+			};
+			name = Debug;
+		};
+		9A3A50BC1CC74DDE0004B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationBar-Tool_SlideHide.app/UINavigationBar-Tool_SlideHide";
+			};
+			name = Release;
+		};
+		9A3A50BE1CC74DDE0004B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UINavigationBar-Tool_SlideHide";
+			};
+			name = Debug;
+		};
+		9A3A50BF1CC74DDE0004B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UINavigationBar-Tool_SlideHideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.UINavigationBar-Tool-SlideHideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UINavigationBar-Tool_SlideHide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3A50851CC74DDE0004B574 /* Build configuration list for PBXProject "UINavigationBar-Tool_SlideHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A50B51CC74DDE0004B574 /* Debug */,
+				9A3A50B61CC74DDE0004B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3A50B71CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A50B81CC74DDE0004B574 /* Debug */,
+				9A3A50B91CC74DDE0004B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A3A50BA1CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A50BB1CC74DDE0004B574 /* Debug */,
+				9A3A50BC1CC74DDE0004B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A3A50BD1CC74DDE0004B574 /* Build configuration list for PBXNativeTarget "UINavigationBar-Tool_SlideHideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A50BE1CC74DDE0004B574 /* Debug */,
+				9A3A50BF1CC74DDE0004B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3A50821CC74DDE0004B574 /* Project object */;
+}
