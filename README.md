@@ -9,7 +9,8 @@
 ```
 
 `Show`
-![](https://github.com/guodongZhao/ZGDUINavigationBar-Tool_SlideHide/raw/master/testShow.gif)
+
+   ![](https://github.com/guodongZhao/ZGDUINavigationBar-Tool_SlideHide/raw/master/testShow.gif)
 
 * `Demo` AND  `Use`
 
