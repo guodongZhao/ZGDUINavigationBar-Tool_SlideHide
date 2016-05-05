@@ -7,6 +7,10 @@
 ```objc
  #import "UINavigationBar+Tool_SlideHide_.h"
 ```
+
+`Show`
+![](https://github.com/guodongZhao/ZGDUINavigationBar-Tool_SlideHide/raw/master/testShow.gif)
+
 * `Demo` AND  `Use`
 
 ####  1.设置UINavigationBar
